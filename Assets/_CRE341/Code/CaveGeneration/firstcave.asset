@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182f2b67efb76ae4888209e41619550f, type: 3}
+  m_Name: firstcave
+  m_EditorClassIdentifier: 
+  parameters:
+    width: 128
+    height: 128
+    fillProbability: 0.45
+    smoothIterations: 5
+    minRoomSize: 20
+    generateOnStart: 1
+    minFloorPercentage: 0.2
+    useCustomSeed: 0
+    customSeed: 0
+    birthLimit: 4
+    deathLimit: 4
+    useWeightedSmoothing: 1
+    cardinalWeight: 1
+    diagonalWeight: 0.7
+    visualise3D: 1
+    cellSize: 1
+    wallHeight: 2
+    wallPrefab: {fileID: 326151428300398641, guid: faa151796bb80444aa0cb66f933d875d, type: 3}
+    floorPrefab: {fileID: 3025216337323668867, guid: b724ccdc4a17e8e45b4cde33a499685a, type: 3}
+    startPointPrefab: {fileID: 8279228770289632669, guid: 03e2439d9fa28ca44ac9d81995ed3db9, type: 3}
+    endPointPrefab: {fileID: 8660071829536398139, guid: 70141cc2279217e4ab626393d6dac93c, type: 3}
+    generateRooms: 1
+    numberOfRooms: 3
+    roomSizeRange: {x: 5, y: 15}
+    generateChambers: 1
+    numberOfChambers: 2
+    chamberRadiusRange: {x: 3, y: 8}
+    saveMapToFile: 1

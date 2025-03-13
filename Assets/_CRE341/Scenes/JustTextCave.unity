@@ -498,37 +498,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 1220309231}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f843b562c767cec4fb5d753aef189c98, type: 3}
+  m_Script: {fileID: 11500000, guid: ae7ac31d3dc7e864e9ebf222b5a30aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 128
-  height: 128
-  fillProbability: 0.552
-  smoothIterations: 4
-  minRoomSize: 8
-  useCustomSeed: 0
-  customSeed: 0
-  minFloorPercentage: 0.2
-  maxRegenerationAttempts: 20
-  birthLimit: 4
-  deathLimit: 4
-  useWeightedSmoothing: 1
-  cardinalWeight: 1.083
-  diagonalWeight: 0.705
-  visualize3D: 1
-  wallPrefab: {fileID: 326151428300398641, guid: faa151796bb80444aa0cb66f933d875d, type: 3}
-  floorPrefab: {fileID: 3025216337323668867, guid: b724ccdc4a17e8e45b4cde33a499685a, type: 3}
-  startPointPrefab: {fileID: 8279228770289632669, guid: 03e2439d9fa28ca44ac9d81995ed3db9, type: 3}
-  endPointPrefab: {fileID: 8660071829536398139, guid: 70141cc2279217e4ab626393d6dac93c, type: 3}
-  cellSize: 1
-  wallHeight: 2
-  caveParent: {fileID: 734917404}
-  generateRooms: 1
-  numberOfRooms: 3
-  roomSizeRange: {x: 8, y: 12}
-  generateChambers: 1
-  numberOfChambers: 2
-  chamberRadiusRange: {x: 8, y: 12}
+  parameters:
+    width: 128
+    height: 128
+    fillProbability: 0.554
+    smoothIterations: 5
+    minRoomSize: 20
+    generateOnStart: 1
+    minFloorPercentage: 0.2
+    useCustomSeed: 0
+    customSeed: 0
+    birthLimit: 4
+    deathLimit: 4
+    useWeightedSmoothing: 1
+    cardinalWeight: 1
+    diagonalWeight: 0.7
+    visualise3D: 1
+    cellSize: 1
+    wallHeight: 2
+    wallPrefab: {fileID: 326151428300398641, guid: faa151796bb80444aa0cb66f933d875d, type: 3}
+    floorPrefab: {fileID: 3025216337323668867, guid: b724ccdc4a17e8e45b4cde33a499685a, type: 3}
+    startPointPrefab: {fileID: 8279228770289632669, guid: 03e2439d9fa28ca44ac9d81995ed3db9, type: 3}
+    endPointPrefab: {fileID: 8660071829536398139, guid: 70141cc2279217e4ab626393d6dac93c, type: 3}
+    generateRooms: 0
+    numberOfRooms: 3
+    roomSizeRange: {x: 5, y: 15}
+    generateChambers: 0
+    numberOfChambers: 2
+    chamberRadiusRange: {x: 3, y: 8}
+    saveMapToFile: 1
+  visualiser: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
